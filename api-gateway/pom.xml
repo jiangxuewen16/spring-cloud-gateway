@@ -10,9 +10,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <artifactId>service-gateway</artifactId>
+    <artifactId>api-gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>服务网关</name>
+    <name>api-gateway</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

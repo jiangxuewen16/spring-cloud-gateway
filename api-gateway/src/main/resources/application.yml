@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: api-gateway
+
+server:
+  port: 9003
+
+logging:
+  level:
+    org.springframework.web: trace
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: [health]
