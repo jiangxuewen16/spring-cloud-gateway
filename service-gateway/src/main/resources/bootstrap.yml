@@ -1,7 +1,7 @@
 spring:
   cloud:
     consul:
-      host: 127.0.0.1
+      host: 192.168.18.245
       port: 8500
       config:
         enabled: true
@@ -29,3 +29,8 @@ spring:
             - Path=/saas-inergral/{segment}
           filters:
             - SetPath=/{segment}
+
+
+    loadbalancer:
+      ribbon:
+        enabled: false
